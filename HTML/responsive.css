@@ -1,0 +1,358 @@
+@media (max-width:375px) {
+    .container-logo {
+        flex-direction: column;
+        gap: 15px;
+        align-items: stretch;
+    }
+
+    .header-left {
+        justify-content: center;
+    }
+
+    .res-clone a {
+        display: none;
+    }
+
+    .header-left i {
+        display: flex;
+        font-size: 2rem;
+        margin-bottom: 15px;
+        margin-left: 10px;
+    }
+
+    .header-left .img-logo {
+        margin-bottom: 1rem;
+        margin-left: 3rem;
+        width: 138px;
+        height: 24px;
+    }
+
+    .header-left .lupa {
+        position: relative;
+        width: 22px;
+        height: 22px;
+        margin-bottom: 15px;
+        margin-left: 3em;
+    }
+
+    .search-bar {
+        display: none;
+    }
+
+    .search-bar input {
+        width: 100%;
+        height: 40px;
+    }
+
+    .main-nav ul {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-top: 1rem;
+    }
+
+    .header-right {
+        margin-top: 1rem;
+        justify-content: space-between;
+    }
+
+    .carinho-principal {
+        display: none;
+        width: 100%;
+        left: 0;
+        top: 100%;
+    }
+
+    .cart-icon {
+        margin-right: 1.5rem;
+    }
+
+    /* fim do header */
+
+    /* formulário */
+    .container-formulario .interface {
+        width: 100%;
+
+    }
+
+    .formulario {
+        margin: 0 1.8rem;
+    }
+
+    .container-inputs h4 {
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+
+    .Nome-principla {
+        margin-bottom: 1rem;
+        margin-right: 0.7rem;
+        font-size: 18px;
+        line-height: 34px;
+        font-weight: 700;
+    }
+
+    .form2 {
+        margin-top: 1rem;
+    }
+
+    .container-inputs h3 {
+        margin-bottom: 20px;
+        border-bottom: 1px solid #CCCCCC;
+        padding-bottom: 20px;
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 700;
+
+    }
+
+    .form-section h2 {
+        border-bottom: 1px solid #CCCCCC;
+        padding-bottom: 20px;
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 700;
+    }
+
+    .form-section lebel {
+        font-weight: 200;
+        font-size: 8px;
+        line-height: 24px;
+    }
+
+    .div-radiu-pagamento input[type="radio"]:checked:before {
+        content: "";
+        display: block;
+        border-radius: 50%;
+        width: 0.6rem;
+        height: 0.6rem;
+        position: absolute;
+        top: 2.9px;
+        right: 3.5px;
+        background-color: #c92071;
+        border: 2px solid #c92071;
+
+    }
+
+    .hidden input {
+        border-radius: 8px;
+        opacity: 60%;
+        background-color: #eee8e8;
+        text-align: start;
+        padding: 20px 60px;
+    }
+
+    .mae-formulario {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .container-inputs,
+    .form-section {
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .div-infopessoal input,
+    .nome-cartao input,
+    .cartao-container input {
+        width: 100%;
+        height: 50px;
+    }
+
+    .cartao-num1 {
+        flex-direction: column;
+    }
+
+    .ordem-summary {
+        margin-top: 2rem;
+        height: auto;
+    }
+
+    .container-total {
+        width: 100%;
+    }
+
+    .container-inter .cart-con {
+        color: white;
+        margin: 0;
+        margin-top: 0.5rem;
+        margin-left: 1rem;
+
+    }
+
+    
+
+    .informar-contato {
+        margin: 0;
+        margin-top: 0.5rem;
+    }
+
+    .informar-contato p {
+        font-size: 14px;
+        margin-top: 2rem;
+    }
+
+    /* Pagamento */
+    .div-radiu {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cartao-container {
+        width: 100% !important;
+    }
+
+    .cartao-container input {
+        width: 100%;
+    }
+
+    /* RESUMO DO PEDIDO */
+    .ordem-summary {
+        width: 100%;
+        padding: 15PX;
+        margin-top: 20px;
+    }
+
+    .ordem-summary h6 {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 22px;
+
+    }
+
+    .img-txt {
+        align-items: flex-start;
+        gap: 15px;
+        margin-bottom: 20px;
+    }
+
+    .img-txt {
+        color: #1F1F1F;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.4;
+        width: calc(100%-95px);
+        letter-spacing: 0.75px;
+
+    }
+
+    .img-txt IMG {
+        width: 80PX;
+        height: auto;
+    }
+
+    .Resumo-detalhes {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .Resumo-detalhes p {
+        font-weight: 500;
+        color: #666;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0.25px;
+    }
+
+    .Resumo-detalhe h3 {
+        font-weight: 500;
+        color: #666;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0.25px;
+    }
+
+    .preco-resulmo {
+        margin-top: 1rem;
+        border: 8px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .preco-resulmo h2 {
+
+        margin-bottom: 17px;
+        margin-left: 10px;
+        align-items: center;
+    }
+
+
+    .PRECO-final {
+        margin-right: 0.5rem;
+        font-size: 18px;
+        margin-top: 5px;
+        align-items: end;
+    }
+
+    .PRECO-final p {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .ordem-d {
+        display: flex;
+        padding: 1rem 0;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .ordem-b h4 {
+        margin-right: 5rem;
+    }
+
+    .container-total {
+        margin: 0;
+        margin-top: 8rem;
+        width: 100%;
+    }
+
+    .nome-princiapal {
+        display: none;
+    }
+
+    .btn-resulmor {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0.2rem;
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+
+    .btn-resulmor a {
+        width: 100%;
+    }
+
+    /* FOOTER */
+
+
+
+    .container-inter {
+        flex-direction: column;
+    }
+
+    .rodaper-logo,
+    .informar-sobre,
+    .informar-categoria,
+    .informar-contato {
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+    footer>div {
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+    }
+}

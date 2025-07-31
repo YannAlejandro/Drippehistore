@@ -1,0 +1,866 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    background-color: white;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+.Contener_logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.header-right {
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 2rem;
+}
+
+
+
+button {
+    border-radius: 8px;
+    width: 114px;
+    height: 40px;
+    background-color: #c92071;
+    border: none;
+    color: aliceblue;
+    font-weight: bold;
+    margin-right: 1.4rem;
+
+
+}
+
+.linke {
+    color: #474747;
+    text-underline-offset: 3px;
+
+}
+
+.cart-count {
+    width: 1rem;
+    border-radius: 50%;
+    background-color: #c92071;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: -0.5rem;
+    right: -0.5rem;
+}
+
+.cart-icon {
+
+    text-decoration: none;
+    position: relative;
+}
+
+.interface {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.header-left i {
+    display: none;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    margin-top: 2rem;
+
+}
+
+.search-bar input {
+    position: relative;
+    width: 559px;
+    height: 60px;
+    border: none;
+    background-color: rgba(71, 71, 71, 0.1);
+    font-size: 1.1rem;
+    padding-left: 10px;
+    border-radius: 8px;
+
+}
+
+.lupa {
+    position: absolute;
+    right: 2%;
+    margin-left: 3rem;
+}
+
+.main-nav ul li {
+    margin-bottom: 2.5rem;
+
+}
+
+
+.main-nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin-top: 2.5rem;
+    color: #474747;
+
+}
+
+.main-nav li a {
+    color: #474747;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.main-nav ul li .ativa {
+    color: #c92071;
+    border-bottom: 2px solid #c92071;
+    padding-bottom: 4px;
+}
+
+.container-formulario {
+    margin-top: 2rem;
+}
+
+.container-inputs {
+    margin-top: 1rem;
+    background-color: white;
+    width: fit-content;
+    padding: 2rem;
+}
+
+/* carinho de comprar */
+
+.carinho-principal {
+    background-color: #FFFFFF;
+    width: 315.45px;
+    height: 454px;
+    position: absolute;
+    left: 0;
+    top: 3.5rem;
+    padding: 0 27px;
+    box-shadow: 0 4px 0.5rem #6666;
+
+}
+
+.carinho-pai h3 {
+    margin-top: 1.2rem;
+    margin-right: 1rem;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #474747;
+}
+
+.carinho-pai {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.text-tenis {
+    display: flex;
+    gap: 7px;
+}
+
+.text-low {
+    margin-left: 25px;
+
+}
+
+.total-carinho {
+    display: flex;
+    gap: 5.8rem;
+    margin-bottom: 0.3rem;
+    border-top: 1px solid #CCCCCC;
+    padding: 17px 0;
+}
+
+.total-carinho p {
+    font-weight: 700;
+    font-family: 'Helvetica Neue',
+        Arial,
+        sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    color: #1F1F1F;
+}
+
+.total-carinho h5 {
+    font-family: 'Helvetica Neue',
+        Arial,
+        sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    color: #EE4266;
+}
+
+.vaziu-d {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-carinho {
+
+    margin: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+}
+
+.Esvaziar {
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    padding: 0;
+    margin: 0;
+    text-align: start;
+    width: 100%;
+
+}
+
+.vaziu-d button {
+    width: 124.78px;
+    height: 40px;
+    border-radius: 8px;
+
+}
+
+.vaziu-d a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+
+    color: #1F1F1F;
+}
+
+.valores h3 {
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    margin-bottom: 1rem;
+}
+
+.valores {
+
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    color: #474747;
+    margin: 0.4rem 0;
+}
+
+.valores h4 {
+    text-decoration: line-through;
+    color: #CCCCCC;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+}
+
+.text-tenis p {
+    display: flex;
+    color: #1F1F1F;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+
+}
+
+/* fimm */
+.header-right {
+    position: relative;
+}
+
+.res-clone {
+    display: flex;
+    gap: 25px;
+}
+
+.res-clone .linke {
+    margin-top: 0.7rem;
+}
+
+.container-inputs h3 {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.75px;
+    padding-bottom: 25px;
+    color: #474747;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.linha-horizontal {
+    border-top: 1px solid #CCCC;
+    height: 7px;
+    margin: 20px 0;
+}
+
+.div-infopessoal {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 20px;
+
+}
+
+.div-infopessoal input {
+    width: 690px;
+    height: 60px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(71, 71, 71, 0.1);
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.div-infopessoal label {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.75px;
+    color: #474747;
+}
+
+.Nome-principla h1 {
+    margin-bottom: 2rem;
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 1px;
+    color: #1F1F1F;
+}
+
+.linha-horizontal {
+    border-top: 1px solid #CCCC;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.form-section h2 {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.75px;
+    color: #474747;
+    border-bottom: 1px solid #474747;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.div-radiu {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin: 1rem 0;
+    margin-top: 1.7rem;
+}
+
+.div-radiu-pagamento {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.div-radiu-pagamento input[type="radio"] {
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid #666;
+    background-color: transparent;
+    appearance: none;
+    position: relative;
+
+}
+
+.div-radiu-pagamento input[type="radio"]:checked:before {
+    content: "";
+    display: block;
+    border-radius: 50%;
+    width: 0.6rem;
+    height: 0.6rem;
+    position: absolute;
+    top: 3.5px;
+    right: 2.7px;
+    background-color: #c92071;
+    border: 2px solid #c92071;
+}
+
+.nome-cartao {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+.nome-cartao input {
+    width: 690px;
+    height: 60px;
+    border-radius: 8px;
+    border: none;
+
+    background-color: rgba(71, 71, 71, 4%);
+}
+
+.hidden {
+    width: fit-content;
+    background-color: white;
+
+}
+
+.form-section {
+    padding: 2rem;
+    background-color: white;
+    width: fit-content;
+    margin-top: 1rem;
+}
+
+.cartao-num1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.cartao-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 0.5rem 0;
+
+
+}
+
+.cartao-container input {
+    width: 332px;
+    height: 60px;
+    padding-left: 0.5rem;
+    border-radius: 8px;
+    border: none;
+    padding: 15px;
+    background-color: rgba(71, 71, 71, 4%);
+}
+
+.valor {
+    background-color: #EE4266;
+    align-items: center;
+    list-style: none;
+}
+
+.mae-formulario {
+    display: flex;
+    gap: 0.8rem;
+
+}
+
+.ordem-summary {
+    width: 468px;
+    height: 532px;
+    background-color: white;
+    padding: 1rem;
+    margin-top: 6.7rem;
+}
+
+.ordem-d {
+    border-bottom: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    display: flex;
+    padding: 1rem 0;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.ordem-b h4 {
+    margin-right: 5rem;
+}
+
+.ordem-b p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+
+}
+
+
+
+.Resumo-detalhes {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+
+
+}
+
+.Resumo-detalhes p {
+    color: #8F8F8F;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+}
+
+.Resumo-detalhes h3 {
+    color: #1F1F1F;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+}
+
+.img-txt h4 {
+    color: #1F1F1F;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.75px;
+}
+
+.PRECO-final {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.preco-resulmo {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F6AA1C26;
+    padding: 1.5rem 1rem;
+    border-radius: 8PX;
+}
+
+.preco-resulmo h2 {
+    color: #1F1F1F;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+}
+
+.PRECO-final h5 {
+    color: #1F1F1F;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+}
+
+.PRECO-final p {
+    color: #8F8F8F;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+
+.btn-resulmo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.btn-resulmo a {
+    width: 100%;
+}
+
+.Btn-estilizar {
+    width: 100%;
+    background-color: #F6AA1C;
+
+}
+
+.ordem-summary h6 {
+    color: #474747;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+}
+
+@media (max-width:375px) {
+    .container-total {
+        background: white;
+        border-top: 1px solid #e0e0e0;
+        padding: 1rem 2rem;
+        margin-top: 0.8rem;
+        margin-bottom: rem;
+        width: 64%;
+
+    }
+}
+
+ 
+.container-total {
+    background: white;
+    border-top: 1px solid #e0e0e0;
+    padding: 1rem 2rem;
+    margin-top: 0.8rem;
+    margin-bottom: 8rem;
+    width: 64%;
+
+} 
+
+.nome-princiapal {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    border-bottom: 1px solid #CCCCCC;
+    margin-top: 0.6rem;
+    padding-bottom: 12px;
+}
+
+
+.preco-total {
+    display: flex;
+    padding: 1rem 0;
+    justify-content: space-between;
+}
+
+.Nome-principla {
+    color: #1F1F1F;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin-top: 3rem;
+    margin-bottom: 2.5rem;
+}
+
+.Total {
+    color: #1F1F1F;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 0.75px;
+}
+
+.preco-total-parcela .Valor {
+    color: #EE4266;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 0.75px;
+}
+
+.preco-total-parcela .installment {
+    font-weight: 500;
+    color: #8F8F8F;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+
+.preco-total-parcela {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+footer {
+    background-color: #1F1F1F;
+    color: white;
+    padding: 12px 10px;
+
+}
+
+footer>div {
+    display: flex;
+    width: 1440px;
+    height: 454px;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* ===== SEÇÕES DO FOOTER ===== */
+
+.cart-con,
+.informar-contato {
+    flex: 1;
+    min-width: 10px;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-bottom: 1px solid #FFFFFF;
+
+}
+
+.cart-con {
+    display: flex;
+    gap: 50px;
+}
+
+.rodaper-logo {
+    flex: 1;
+    min-width: 20px;
+    margin-top: 5rem;
+
+}
+
+/* Logo e descrição */
+.logo-branca img {
+    margin-bottom: 20px;
+}
+
+.colum-text h6 {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+
+/* Redes sociais */
+.redes {
+    display: flex;
+    gap: 15px;
+}
+
+.redes i {
+    margin-right: 1rem;
+    font-size: 20px;
+    color: #F5F5F5;
+    transition: color 0.3s;
+
+}
+
+rodaper-logo {
+    flex: 1;
+    min-width: 20px;
+    margin-top: 7.4rem;
+
+}
+
+/* Logo e descrição */
+.logo-branca img {
+    margin-bottom: 20px;
+}
+
+.colum-text h6 {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+
+/* Redes sociais */
+.redes {
+    display: flex;
+    gap: 15px;
+}
+
+.redes i {
+    margin-right: 1rem;
+    font-size: 20px;
+    color: #F5F5F5;
+    transition: color 0.3s;
+
+}
+
+
+
+/* Títulos das seções */
+footer h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Listas */
+footer ul {
+    list-style: none;
+    /* padding-bottom: 15px; */
+}
+
+footer li {
+    padding-bottom: 17px;
+    font-size: 14px;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+    cursor: pointer;
+}
+
+footer li:hover {
+    opacity: 1;
+}
+
+/* Contato */
+address {
+    font-style: normal;
+    font-size: 14px;
+    opacity: 0.8;
+    line-height: 1.6;
+}
+
+/* ===== FOOTER INFERIOR (COPYRIGHT) ===== */
+.rodaper {
+    background-color: #1F1F1F;
+
+}
+
+.container-inter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Digital- p {
+    padding-top: 30px;
+    border-top: 1px solid #FFFFFF;
+    margin-top: 40px;
+    text-align: center;
+    /* =padding: 2.9rem 2rem; */
+}
+
+
+
+.rodaper-logo {
+    width: 800px;
+    margin-right: 10rem;
+}
+
+.colum-text h6 {
+    text-wrap: wrap;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-top: 1rem;
+
+}
+
+footer+footer .container {
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 14px;
+}
